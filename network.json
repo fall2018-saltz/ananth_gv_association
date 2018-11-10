@@ -11,7 +11,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "clean.R",
+            "source": "StepA.R",
             "target": "data.csv"
         }
     ],
@@ -20,12 +20,12 @@
             "name": "data.csv"
         },
         {
-            "assigned_to": "not assigned",
-            "desc": "",
-            "name": "clean.R",
-            "task_status": "proposed"
+            "assigned_to": "agauribi",
+            "desc": "Part A: Explore Data Set",
+            "name": "StepA.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-10 19:49:12",
+    "updated_at": "2018-11-10 19:50:52",
     "url": "https://github.com/fall2018-saltz/ananth_gv_association"
 }
