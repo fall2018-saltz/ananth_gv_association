@@ -28,8 +28,12 @@
             "desc": "Part B: Explore Data Set",
             "name": "StepB.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "Coerce the data frame into transactions",
+            "name": "StepC.R"
         }
     ],
-    "updated_at": "2018-11-10 20:01:51",
+    "updated_at": "2018-11-10 20:02:15",
     "url": "https://github.com/fall2018-saltz/ananth_gv_association"
 }
