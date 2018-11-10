@@ -10,8 +10,12 @@
             "desc": "Part A: Explore Data Set",
             "name": "StepA.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "Part B: Explore Data Set",
+            "name": "StepB.R"
         }
     ],
-    "updated_at": "2018-11-10 19:52:08",
+    "updated_at": "2018-11-10 19:52:28",
     "url": "https://github.com/fall2018-saltz/ananth_gv_association"
 }
