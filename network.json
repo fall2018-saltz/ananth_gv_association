@@ -45,8 +45,11 @@
             "desc": "Coerce the data frame into transactions",
             "name": "StepC.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "frequencyPlot.png"
         }
     ],
-    "updated_at": "2018-11-10 20:10:00",
+    "updated_at": "2018-11-10 20:10:24",
     "url": "https://github.com/fall2018-saltz/ananth_gv_association"
 }
