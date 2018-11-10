@@ -51,15 +51,15 @@
             "task_status": "in progress"
         },
         {
+            "name": "plot.png"
+        },
+        {
             "assigned_to": "agauribi",
             "desc": "Coerce the data frame into transactions",
             "name": "StepC.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "plot.png"
         }
     ],
-    "updated_at": "2018-11-10 20:11:06",
+    "updated_at": "2018-11-10 20:19:02",
     "url": "https://github.com/fall2018-saltz/ananth_gv_association"
 }
