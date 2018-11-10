@@ -16,4 +16,4 @@ hotelSurveyX <- as(hotelSurvey_clean,"transactions")    # convert the hotelSurve
 #inspection <- inspect(hotelSurveyX)                     # use inspect method to inspect the resultant transaction matrix.
 itemFrequency(hotelSurveyX, weighted = FALSE)           # item frequency fucntion is called on the hotelsurveryX transaction matrix to counts the number of distinct occurrences of items or itemsets (elements) in a collection of sequences
 frequencyPlot <- itemFrequencyPlot(items(hotelSurveyX), las=2)           # the plot is then generated for the itemfrequency using itemfrequencyPlot function which generates a bar plot for each attribute and frequency
-
+p <- recordPlot()
