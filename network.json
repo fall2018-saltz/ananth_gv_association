@@ -3,22 +3,8 @@
         "agauribi"
     ],
     "created_at": "2018-11-07 23:25:57",
-    "edges": [
-        {
-            "ports": [
-                {
-                    "output": "hotelSurvey <- data                                                       # Copy the data frame to a new data frame hotelSurvey",
-                    "type": "csv"
-                }
-            ],
-            "source": "StepA.R",
-            "target": "data.csv"
-        }
-    ],
+    "edges": [],
     "nodes": [
-        {
-            "name": "data.csv"
-        },
         {
             "assigned_to": "agauribi",
             "desc": "Part A: Explore Data Set",
@@ -26,6 +12,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-10 19:52:03",
+    "updated_at": "2018-11-10 19:52:08",
     "url": "https://github.com/fall2018-saltz/ananth_gv_association"
 }
