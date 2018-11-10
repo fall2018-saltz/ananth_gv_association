@@ -1,4 +1,5 @@
 
+source(‘methods’)
 hotelSurvey_clean <- hotelSurvey_clean
 #install.packages("arules")                       # install and load library arules
 library(arules)
