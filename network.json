@@ -25,6 +25,16 @@
             ],
             "source": "StepB.R",
             "target": "StepC.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "frequencyPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "StepC.R",
+            "target": "plot.png"
         }
     ],
     "nodes": [
@@ -50,6 +60,6 @@
             "name": "plot.png"
         }
     ],
-    "updated_at": "2018-11-10 20:10:59",
+    "updated_at": "2018-11-10 20:11:06",
     "url": "https://github.com/fall2018-saltz/ananth_gv_association"
 }
