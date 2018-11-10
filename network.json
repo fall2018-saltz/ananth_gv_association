@@ -7,35 +7,63 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
+                    "input": "hotelSurvey",
+                    "output": "hotelSurvey",
+                    "type": "r_obj"
                 }
             ],
-            "source": "raw_data.csv",
-            "target": "clean.R"
+            "source": "StepA.R",
+            "target": "StepB.R"
         },
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
+                    "input": "hotelSurvey_clean",
+                    "output": "hotelSurvey_clean",
+                    "type": "r_obj"
                 }
             ],
-            "source": "clean.R",
-            "target": "data.csv"
+            "source": "StepB.R",
+            "target": "StepC.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "hotelSurvey_clean",
+                    "output": "hotelSurvey_clean",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "StepC.R",
+            "target": "StepD.R"
         }
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
+            "assigned_to": "agauribi",
+            "desc": "Part A: Clean and Load Data Frame",
+            "name": "StepA.R",
+            "task_status": "in progress"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "agauribi",
+            "desc": "Part B: Explore Data Set",
+            "name": "StepB.R",
+            "task_status": "in progress"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "agauribi",
+            "desc": "Coerce the data frame into transactions",
+            "name": "StepC.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Coerce the data frame into transactions",
+            "name": "StepD.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-07 23:25:57",
+    "updated_at": "2018-11-10 20:34:52",
     "url": "https://github.com/fall2018-saltz/ananth_gv_association"
 }
