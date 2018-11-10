@@ -1,6 +1,7 @@
 
 #Part C: Use arules to discover patterns
 
+hotelSurveyX <- hotelSurveyX
 #9)	Run the apriori command to try and predict happy customers (as defined by their overall satisfaction being high – above 7).
 
 #install.packages("arules")                       # install and load library arules
