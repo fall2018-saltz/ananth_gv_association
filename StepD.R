@@ -1,6 +1,6 @@
 
 #Part C: Use arules to discover patterns
-
+source(‘methods’)
 hotelSurveyX <- as(hotelSurvey_clean,"transactions")
 #9)	Run the apriori command to try and predict happy customers (as defined by their overall satisfaction being high – above 7).
 
