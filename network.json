@@ -18,16 +18,18 @@
     ],
     "nodes": [
         {
-            "desc": "Part B: Explore Data Set",
-            "name": "StepB.R"
-        },
-        {
             "assigned_to": "agauribi",
             "desc": "Part A: Clean and Load Data Frame",
             "name": "StepA.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Part B: Explore Data Set",
+            "name": "StepB.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-10 19:53:11",
+    "updated_at": "2018-11-10 20:01:51",
     "url": "https://github.com/fall2018-saltz/ananth_gv_association"
 }
