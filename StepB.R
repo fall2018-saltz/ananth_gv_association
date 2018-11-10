@@ -74,6 +74,11 @@ frequencytable_friendliness_perc <- prop.table(frequencytable_friendliness)     
 
 #5)	Show a “contingency table” of percentages for the age and the overall satisfaction variables together. Write a block comment about what you see.
 
+contingency_table <- table(hotelSurvey_clean$guestAge, hotelSurvey_clean$Hotel_customer_satisfaction)   # c
+prop.table(contingency_table)
+
+
+
 #Contingency tables provide a way to display the frequencies and relative frequencies of observations, which are classified according to two categorical variables.
 #library(gmodels)                                                                                       # Library gmodels can be used to generate contingency tables or cross tables.
 #with(hotelSurvey_clean, CrossTable(frequencytable_overalSatisfaction_perc, frequencytable_age_perc))   # Cross table fucntion is called with hotel survey data and the 2 matrix vectors on which a cross table frequesncy distribution is required,
