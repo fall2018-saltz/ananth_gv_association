@@ -2,7 +2,10 @@
 #Part C: Use arules to discover patterns
 
 #9)	Run the apriori command to try and predict happy customers (as defined by their overall satisfaction being high – above 7).
-
+#install.packages("arules")                       # install and load library arules
+library(arules)
+#install.packages("arulesViz")                    # install and load library arulesViz
+library(arulesViz)
 ruleset <- apriori(hotelSurveyX, parameter=list(support=0.1 , confidence =0.5),appearance=list(default="lhs", rhs=("Hotel_customer_satisfaction=High")))
 
 #10)	Once you have a reasonable number of rules, use inspect( ) to view the ruleset.
