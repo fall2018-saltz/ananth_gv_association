@@ -25,16 +25,6 @@
             ],
             "source": "StepB.R",
             "target": "StepC.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "frequencyPlot",
-                    "type": "png"
-                }
-            ],
-            "source": "StepC.R",
-            "target": "frequencyPlot.png"
         }
     ],
     "nodes": [
@@ -55,11 +45,8 @@
             "desc": "Coerce the data frame into transactions",
             "name": "StepC.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "frequencyPlot.png"
         }
     ],
-    "updated_at": "2018-11-10 20:10:29",
+    "updated_at": "2018-11-10 20:10:50",
     "url": "https://github.com/fall2018-saltz/ananth_gv_association"
 }
