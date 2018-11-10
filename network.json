@@ -29,7 +29,7 @@
         {
             "ports": [
                 {
-                    "output": "frequencyPlot",
+                    "output": "p",
                     "type": "png"
                 }
             ],
@@ -60,6 +60,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-10 20:19:02",
+    "updated_at": "2018-11-10 20:19:13",
     "url": "https://github.com/fall2018-saltz/ananth_gv_association"
 }
