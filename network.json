@@ -17,12 +17,15 @@
     ],
     "nodes": [
         {
-            "name": "clean.R"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "not assigned",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-11-10 19:48:53",
+    "updated_at": "2018-11-10 19:49:12",
     "url": "https://github.com/fall2018-saltz/ananth_gv_association"
 }
